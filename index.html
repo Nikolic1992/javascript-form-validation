@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JavaScript form validation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <form id="registrationForm" onsubmit="validateForm();">
+    <label for="email">* Email:</label>
+    <input type="email" id="email" required><br>
+
+    <label for="password">* Password:</label>
+    <input type="password" id="password" required><br>
+
+    <label for="dob">* Date of Birth:</label>
+    <input type="date" id="dob" required><br>
+
+    <label>
+      <input type="checkbox" id="subscribe"> Subscribe to newsletter
+    </label>
+    <button type="submit">Register</button>
+
+  </form>
+
+
+
+</body>
+
+</html>
